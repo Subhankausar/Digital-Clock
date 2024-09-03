@@ -12,7 +12,7 @@ function App() {
       const secs = currTime.getSeconds();
       const ampm = hrs >= 12 ? 'PM' : 'AM';
       
-      setTime(`${formatNumber(hrs)}:${formatNumber(mins)}:${formatNumber(secs)} sE${ampm}`);
+      setTime(`${formatNumber(hrs)}:${formatNumber(mins)}:${formatNumber(secs)} ${ampm}`);
     }, 1000);
 
     return () => clearInterval(timeFunc);
