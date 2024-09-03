@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap');
+
+
+h1 {
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 60px;
+  color: #ffffff;
+  font-style: normal;
+  text-align: center;
+  margin: 100px auto;
+  Transition: color 0.5s ease, transform 0.5s ease, text-shadow 0.5s ease;
+}
+
+
+body {
+  background: radial-gradient(circle, #000000, #333333);
+}
+
+
+h1:hover {
+  color: #567ade; 
+  transform: scale(1.05);
+  text-shadow: 0 0 15px #0b1c4d 
+}
